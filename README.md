@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/tijslover/goit-fe-course/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tijslover/goit-fe-course/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework01</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">lifestyle</a></li>
+                <li><a href="#">photodiary</a></li>
+                <li><a href="#">music</a></li>  
+                <li><a href="#">travel</a></li>
+            </ul>
+        </nav>
+    </header>  
+        <main> 
+            <article>
+                <img src="img/girl.png" alt="girl" width="420" height="280">
+                    <p>lifestyle</p>
+                <h2>More than just a music fastival</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur quod, quaerat consequatur ex et cumque facere eius voluptatem quas vero incidunt molestiae nobis ipsa tempora! Qui voluptate ipsa soluta id repellat fugit eum quo illo quidem non deserunt tenetur, laboriosam, maiores ipsam ratione. Ad nulla voluptates totam mollitia, debitis laudantium distinctio. Atque magni deserunt fugit ad quidem. Fugit dolorem unde temporibus libero nihil vero pariatur accusantium est sed tenetur? Dolore eligendi temporibus fugiat molestias, labore inventore explicabo iste facere dicta sapiente corporis exercitationem sunt hic, placeat facilis enim similique adipisci quae laboriosam quibusdam sequi velit omnis illum. Nemo, quidem.</p>
+            </article>
+            <article>
+                <img src="img/coffee.png" alt="cup with coffee" width="420" height="280">
+                    <p>lifestyle</p>
+                <h2>Life tastes batter with coffee</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit aspernatur fuga error! Libero, doloribus atque. Aperiam iusto qui et unde quibusdam sunt optio nihil laborum dolorum aliquam. Recusandae, dolorum. Ex et eos nam iste quam modi blanditiis saepe, quas minima provident in. Veniam error dolorum eaque accusantium. Quidem iure iusto sequi voluptate mollitia. Blanditiis recusandae pariatur nostrum laboriosam ab officia, mollitia optio saepe quisquam dolor consequuntur hic voluptatibus dolore, eos minima, adipisci odio perspiciatis omnis eum numquam tempore non. Praesentium nesciunt quam repudiandae dignissimos sint accusamus tenetur temporibus quasi modi ratione incidunt dolorum ab, iure odit eligendi consequatur saepe officia.</p>
+            </article>
+            <article>
+                <img src="img/bridge.png" alt="two girls and bridge"  width="420" height="280">
+                    <p>photodiary</p>
+                <h2>American dream</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo fugit obcaecati atque tempora eaque tenetur quasi! Delectus similique placeat fugiat unde omnis, eaque assumenda sunt dolore aut quasi facilis expedita nostrum? Sequi qui aliquid nobis ipsa debitis esse commodi ullam rem perspiciatis nihil nesciunt omnis, quisquam ipsam iure deserunt consectetur possimus hic reprehenderit? Ut sequi unde consequatur praesentium repellat dolor corporis ipsam natus voluptates saepe dolorem nesciunt, maiores ducimus aliquid eligendi! Culpa, eum consequuntur nisi officia pariatur fuga eius dignissimos, sequi incidunt iure, ex laudantium quod voluptatem. Officia veniam at, aut similique cumque asperiores, tempora, eius temporibus enim accusamus tenetur!</p>
+            </article>
+            <article>
+                <img src="img/guy.png" alt="guy" width="420" height="280">
+                    <p>photodiary</p>
+                <h2>A day exploring the Alps </h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, laudantium excepturi inventore hic distinctio unde eos quo fuga laboriosam ratione tempore quod nemo error eligendi ut voluptatibus aut illo, voluptatum repellendus dicta dolores voluptatem porro temporibus. Provident quos expedita dolor, eum minima animi tempora est quae maiores excepturi repudiandae voluptas rerum, officia natus a voluptatem officiis quis inventore modi aperiam molestias ullam corrupti incidunt. Optio dolores ipsam quas nisi facilis voluptas, laborum non consequatur. Voluptatem dolor explicabo quis eligendi exercitationem itaque delectus rem maiores nisi aliquid, culpa nobis est nemo veniam hic veritatis minima saepe natus architecto. Reprehenderit, nesciunt quibusdam.</p>
+            </article>       
+                </main> 
+    <button>Load more</button>
+</body>
+</html>
