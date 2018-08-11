@@ -1,18 +1,10 @@
-body{
-    width:1200px;
-}
-header{
+body {
+    width: 1200px;
+    height: 2080px;
     margin-top: 75px;
 }
 header nav {
-    width: 900px;
     margin: 0 auto;
-}
-li {
-    display: inline; 
-}
-ul {
-    text-align: center;
 }
 nav ul li a {
     text-decoration: none;
@@ -25,15 +17,12 @@ nav ul li a {
     text-align: center; 
 }
 main {
+    width: 920px;
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 100px;
     margin-bottom: 190px;
 }
-button{
-    text-align: center;
-}
-p.under_text {
+p.under_photo {
     text-transform: uppercase;
     font-family: Ubuntu;
     color:  #b4ad9e;
@@ -55,4 +44,38 @@ p {
     font-weight: 400;
     line-height: 24px;/* Приближение из-за подстановки шрифтов */
     text-align: left;
+}
+article {
+    width: 420px;
+    height: 520px;
+    display: inline-block;
+    margin-top: 60px;
+    padding: 10px 20px;
+    float: left;
+}
+nav ul {
+    display: table;
+    margin: 0 auto;
+}
+nav li {
+    float:left;
+    display:table-cell;
+    text-align:center;
+    padding: 0 50px;
+}
+button {
+    font-family: PlayfairDisplay;
+    color:  #626262;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    width: 165px;
+    height: 60px;
+    background: #fff;
+    border: 1px solid;
+}
+.button {
+    text-align: center;
+    margin: 20px;
 }
