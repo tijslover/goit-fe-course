@@ -1,0 +1,58 @@
+body{
+    width:1200px;
+}
+header{
+    margin-top: 75px;
+}
+header nav {
+    width: 900px;
+    margin: 0 auto;
+}
+li {
+    display: inline; 
+}
+ul {
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: PlayfairDisplay;
+    color:  #626262;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: center; 
+}
+main {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 190px;
+}
+button{
+    text-align: center;
+}
+p.under_text {
+    text-transform: uppercase;
+    font-family: Ubuntu;
+    color:  #b4ad9e;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+}
+h2 {
+    font-family: PlayfairDisplay;
+    color:  #626262;
+    font-size: 30px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+}
+p {
+    font-family: PlayfairDisplay;
+    color:  #626262;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
