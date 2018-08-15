@@ -14,7 +14,7 @@ body {
 }
 
 .page-header {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .site-navigation {
@@ -27,9 +27,9 @@ body {
 }
 
 .site-navigation-item {
-    margin-right: 50px;
+    margin-right: 90px;
+    padding: 30px;
     display: inline-block;
-    padding: 0 50px;
 }
 
 .site-navigation li:last-child {
@@ -52,23 +52,48 @@ body {
     color: #ff911f;
 }
 
-.item-tag {
+/*----------------------------------------*/
+
+.news {
+    margin: 0 auto;
+    /* не работает*/
+}
+
+.news-list {
+    padding: 0px;
+    list-style: none;
+    display: inline-block;
+}
+
+.news-list-item {
+    padding: 0px;
+    width: 420px;
+    margin-bottom: 45px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.news-list-tag {
     text-transform: uppercase;
     color: #b4ad9e;
     font-weight: 300;
 }
 
-.item-title {
+.news-list-title {
     font-size: 30px;
 }
 
-.item {
-    width: 430px;
-    padding: 52px 5px;
-    display: inline-block;
+.news-list-about {
+    width: 420px;
 }
 
-button {
+.news-list-item:last-child {
+    margin-right: 0px;
+}
+
+/*---------------------------------------------------*/
+
+.button {
     font-size: 20px;
     width: 165px;
     height: 60px;
@@ -88,9 +113,4 @@ button {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-
-div.button {
-    text-align: center;
-    margin-bottom: 60px;
 }
