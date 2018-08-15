@@ -22,7 +22,7 @@ body {
     text-align: center;
     font-size: 0px;
     list-style: none;
-    padding-right: 0 50px;
+    padding-right: 0px;
 }
 
 .site-navigation-item {
@@ -31,7 +31,7 @@ body {
     padding: 0 50px;
 }
 
-.site-navigation li::last-child {
+.site-navigation li:last-child {
     margin-right: 0px;
 }
 
@@ -51,17 +51,17 @@ body {
     color: #ff911f;
 }
 
-p.under_photo {
+.item-tag {
     text-transform: uppercase;
     color: #b4ad9e;
     font-weight: 300;
 }
 
-h2 {
+.item-title {
     font-size: 30px;
 }
 
-article {
+.item {
     width: 430px;
     padding: 52px 5px;
     display: inline-block;
