@@ -4,7 +4,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    margin: o auto;
+    margin: 0 auto;
 }
 
 .wrapper {
@@ -67,6 +67,7 @@ body {
     padding: 52px 5px;
     display: inline-block;
 }
+
 button {
     font-size: 20px;
     width: 165px;
@@ -88,6 +89,7 @@ button {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 div.button {
     text-align: center;
     margin-bottom: 60px;
