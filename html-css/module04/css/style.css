@@ -1,3 +1,248 @@
-width 1648 all [px]
+html {
+    box-sizing: border-box;
+}
 
-width: 1140px;
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    padding-top: 38px;
+    padding-bottom: 82px;
+    width: 1140px;
+    margin: 0 auto;
+}
+.page-header {
+    margin-bottom: 110px;
+}
+
+.site-navigation {
+    padding: 0px;
+    margin: 0px;
+    font-size: 0px;
+    list-style: none;
+    float: right;
+    
+
+}
+
+.site-navigation a {
+    padding: 18px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    line-height: 20px;
+    padding: 18px;
+}
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    color: #555252;
+    font-weight: 300;
+    padding: 12px;
+    line-height: 32px;
+}
+
+.logo::first-letter {
+    color: #1abc9c;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.site-navigation-item {
+    display: inline-block;
+}
+/* ------------------------------- */
+
+section.products {
+    margin-bottom: 105px;
+}
+
+h1,
+h2 {
+    font-family: Roboto;
+    color: #515151;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 32px;
+}
+
+.products-list {
+    list-style: none;
+    padding: 0px;
+    font-size: 0px;
+    margin: 0px;
+}
+
+.products-list-item {
+    display: inline-block;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    width: 255px;
+}
+
+.name_of_feature {
+    background-color: #323232;
+    width: 201px;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0px;
+    text-align: left;
+    line-height: 40px;
+    padding-left: 15px;
+    float: left;
+}
+
+.price {
+    float: right;
+    background-color: #8c8c8c;
+    width: 54px;
+    text-align: center;
+    height: 40px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+h1::after,
+h2::after {
+    margin: 0 auto;
+    display: block;
+    height: 7px;
+    width: 164px;
+    background-color: #4ec6ab;
+    content: '';
+    margin-top: 32px;
+}
+
+h1 {
+    margin-bottom: 92px;
+}
+
+h2 {
+    margin-bottom: 82px;
+}
+
+.products-list-item:nth-last-child(4n+1) {
+    margin-right: 0px;
+}
+
+.products-list-item:nth-last-child(-n+4) {
+    margin-bottom: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*=====================================*/
+
+.news-list {
+    padding: 0px;
+    font-size: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.news-list-item {
+    margin: 0px;
+    display: inline-block;
+    float: left;
+    margin-right: 45px;
+    width: 350px;
+}
+
+.news-list-item:last-child {
+    margin-right: 0px;
+}
+
+.news li img {
+    margin-bottom: 18px;
+}
+
+.news-list-main {
+    margin: 0px;
+    padding: 0px;
+    font-family: OpenSans;
+    color: #555252;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 26px;
+    
+}
+
+.news-list-about {
+    margin: 0px;
+    font-family: OpenSans;
+    color: #555252;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 26px;
+}
+
+.news-list-main::after {
+    display: block;
+    height: 3px;
+    width: 136px;
+    background-color: #4ec6ab;
+    content: '';
+    margin-top: 15px;
+}
+
+.news-list a {
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+    background-color: #4ec6ab;
+    width: 160px;
+    height: 51px;
+    padding: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.site-navigation-item a:hover {
+    color: #4ec6ab;
+}
+
+a:focus {
+    color: #ff911f;
+}
+
+/*.price:hover {
+    background-color: #4ec6ab;
+}
+.name_of_feature:hover {
+    background-color: #4ec6ab;
+}*/
