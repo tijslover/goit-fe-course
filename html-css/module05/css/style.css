@@ -118,7 +118,7 @@ a:focus {
     filter: brightness(52%);
     width: 1600px;
     height: 600px;
-    background-image: url('/img/slide4.jpg');
+    background-image: url(/img/slide4.jpg);
     background-size: cover;
     background-position: center;
    
@@ -272,8 +272,21 @@ p:hover span {
 
 .collection-list-item {
     cursor: pointer;
+
+}
+/*--------------------------------*/
+
+.product-list-overlay{
+    
 }
 
+
+
+
+
+
+
+/*--------------------------------*/
 footer {
     background-color:  #323232;
     height: 88px;
