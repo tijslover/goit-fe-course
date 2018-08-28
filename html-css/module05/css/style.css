@@ -173,6 +173,10 @@ section.tour p {
     font-size: 104px;
 }
 
+p:hover span {
+    color: #ff911f;
+}
+
 /*-----------------------*/
 
 .coll {
