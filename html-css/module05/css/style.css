@@ -114,6 +114,7 @@ a:focus {
 }
 
 .tour-content {
+    position: relative;
     filter: brightness(52%);
     width: 1600px;
     height: 600px;
