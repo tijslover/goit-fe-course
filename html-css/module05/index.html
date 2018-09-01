@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/peicon7stroke.css">
     <title>Homework05</title>
 </head>
 
@@ -44,71 +43,122 @@
 
         <main class="content">
             <h1 class="visually-hidden">zagolovok to hide</h1>
-            <section class="tour">
-                <div class="tour-content"></div>
-                <button class="button-left"><p class="pe-7s-angle-left"></p></button>
-                <p class="tour-title"><span>affordable</span> paris tours</p>
-                <p class="tour-info">city tours / tour tickets / tour guides</p>
-                <button class="button-right"><p class="pe-7s-angle-right"></p></button>
-            
-            </section>
+            <div class="slider">
+                <button class="slider-button previous-slider">
+                    <img class="slider-button-image previous-item" src="/img//slider/left.png" alt="leftarrow" height="38"
+                        width="22">
+                </button>
+
+                <button class="slider-button next-slider">
+                    <img class="slider-button-image next-item" src="/img/slider/right.png" alt="rightarrow" height="38"
+                        width="22">
+                </button>
+
+                <ul class="slider-list">
+                    <li class="slider-item">
+                        <img class="slider-image" src="/img/slider/slide4.jpg" alt="1st-slider">
+                        <p class="slider-title"><span>affordable</span> paris tours</p>
+                        <p class="slider-info">city tours / tour tickets / tour guides</p>
+                    </li>
+                </ul>
+
+            </div>
 
             <section class="coll">
                 <h2 class="collhead">new collection</h2>
                 <ul class="collection clearfix">
-                    <li class="collection-list-item">
-                        <img src="img/guy1.jpg" alt="guy_in_blue_short" width="256" height="322">
+                    <li class="collection-list-item first-card">
+
+                        <div class="overlay">
+                            <ul class="list-overlay">
+                                <li class="list-overlay-item">
+                                    <a href="#" class="list-overlay-icon like">
+                                        <span class="visually-hidden">Like</span>
+                                    </a>
+                                </li>
+                                <li class="list-overlay-item">
+                                    <a href="#" class="list-overlay-icon share">
+                                        <span class="visually-hidden">share</span>
+                                    </a>
+                                </li>
+                                <li class="list-overlay-item">
+                                    <a href="#" class="list-overlay-icon time">
+                                        <span class="visually-hidden">time</span>
+                                    </a>
+                                </li>
+                                <li class="list-overlay-item">
+                                    <a href="#" class="list-overlay-icon add">
+                                        <span class="visually-hidden">add to cart</span>
+                                    </a>
+
+                                </li>
+                            </ul>
+                        </div>
+
+                        <img src="img/collection/guy1.jpg" alt="guy_in_blue_short" width="256" height="322">
                         <div class="for-description-item clearfix">
-                            <p class="name_of_feature">blue tshort</p>
+                            <p class="name_of_feature">blue tshirt</p>
                             <p class="price">26$</p>
                         </div>
                     </li>
-                    <li class="collection-list-item">
-                        <img src="img/woman2.jpg" alt="woman_in_dress" width="256" height="322">
+
+                    <li class="collection-list-item second-card">
+
+                        <div class="overlay">
+                            <ul class="list-overlay">
+                                <li class="list-overlay-item">
+                                    <a href="#" class="list-overlay-icon like">
+                                        <span class="visually-hidden">Like</span>
+                                    </a>
+                                </li>
+                                <li class="list-overlay-item">
+                                    <a href="#" class="list-overlay-icon share">
+                                        <span class="visually-hidden">share</span>
+                                    </a>
+                                </li>
+                                <li class="list-overlay-item">
+                                    <a href="#" class="list-overlay-icon time">
+                                        <span class="visually-hidden">time</span>
+                                    </a>
+                                </li>
+                                <li class="list-overlay-item">
+                                    <a href="#" class="list-overlay-icon add">
+                                        <span class="visually-hidden">add to cart</span>
+                                    </a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <img src="img/collection/woman2.jpg" alt="woman_in_dress" width="256" height="322">
                         <div class="for-description-item clearfix">
                             <p class="name_of_feature">woman shirt</p>
                             <p class="price">31$</p>
                         </div>
                     </li>
                     <li class="collection-list-item">
-                        <img src="img/guy3.jpg" alt="guy_in_yellow_short" width="256" height="322">
+                        <img src="img/collection/guy3.jpg" alt="guy_in_yellow_short" width="256" height="322">
                         <div class="for-description-item clearfix">
                             <p class="name_of_feature">yellow tshirt</p>
                             <p class="price">21$</p>
                         </div>
                     </li>
                     <li class="collection-list-item">
-                        <img src="img/woman4.jpg" alt="woman_in_dress2" width="256" height="322">
+                        <img src="img/collection/woman4.jpg" alt="woman_in_dress2" width="256" height="322">
                         <div class="for-description-item clearfix">
                             <p class="name_of_feature">cool lingerie</p>
                             <p class="price">56$</p>
                         </div>
                     </li>
+
                 </ul>
-
-
-                
-                <div class="product-list-overlay"> все вместе, что поверх изображения
-                    <ul class="product-list-actions clearfix"> список всех иконок, которые появляются
-                        <li>
-                            <a href="#" class="product-list-actions-icon1"> сюда дадим стили для
-                                                                                                              расположения, изображение
-                                <span class="visually-hidden">Like</span> для читалок
-                            </a>
-                       </li>
-                      все li для каждой иконки
-                   </ul>
-                 </div>
-
-
 
             </section>
         </main>
         <footer>
-                <p class="footertext">all rights reserverd &#169; | designed <span class="author">themen graph</span></p>
-            </footer>
+            <p class="footertext">all rights reserverd &#169; | designed <span class="author">themen graph</span></p>
+        </footer>
     </div>
-  
+
 </body>
 
 
