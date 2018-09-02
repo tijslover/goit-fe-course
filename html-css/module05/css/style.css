@@ -109,6 +109,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    filter: brightness(52%);
 }
 
 .slider-content {
