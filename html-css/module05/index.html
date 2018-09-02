@@ -13,8 +13,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="page-header">
+        <header class="page-header wrapper">
             <nav class="navigation clearfix">
                 <a class="logo" href="#">mart</a>
                 <ul class="site-navigation">
@@ -42,26 +41,30 @@
         </header>
         <main class="content">
             <h1 class="visually-hidden">zagolovok to hide</h1>
-                 
+
         <div class="slider">
-            <button class="slider-button previous-slider">
-                <img class="slider-button-image previous-item" src="/img//slider/left.png" alt="leftarrow" height="38"
-                    width="22">
-            </button>
-            <button class="slider-button next-slider">
-                <img class="slider-button-image next-item" src="/img/slider/right.png" alt="rightarrow" height="38"
-                    width="22">
-            </button>
-            <ul class="slider-list">
-                <li class="slider-item">
-                    <img class="slider-image" src="/img/slider/slide4.jpg" alt="1st-slider">
+            <div class="slider-content wrapper">
+                <button class="slider-button previous-slider">
+                    <img class="slider-button-image previous-item" src="/img//slider/left.png" alt="leftarrow" height="38"
+                        width="22">
+                </button>
+                <button class="slider-button next-slider">
+                    <img class="slider-button-image next-item" src="/img/slider/right.png" alt="rightarrow" height="38"
+                        width="22">
+                </button>
+                <ul class="slider-list">
+                   <li> 
                     <p class="slider-title"><span>affordable</span> paris tours</p>
-                    <p class="slider-info">city tours / tour tickets / tour guides</p>
-                </li>
-            </ul>
+                   </li>
+                   <li></li>
+                    <p class="slider-info">city tours / tour tickets / tour guides</p>  
+                    </li>
+                </ul>
+            </div>
         </div>
 
             <section class="coll">
+                <div class="colliction-items wrapper" >
                 <h2 class="collhead">new collection</h2>
                 <ul class="collection clearfix">
                     <li class="collection-list-item first-card">
@@ -148,13 +151,13 @@
                     </li>
 
                 </ul>
+                </div>
 
             </section>
         </main>
         <footer>
             <p class="footertext">all rights reserverd &#169; | designed <span class="author">themen graph</span></p>
         </footer>
-    </div>
 
 </body>
 

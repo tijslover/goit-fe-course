@@ -14,8 +14,27 @@ body {
 
 .wrapper {
     padding: 0px;
-    padding-top: 15px;
     margin: 0 auto;
+    width: 1110px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
 }
 
 img {
@@ -25,15 +44,11 @@ img {
     height: auto;
 }
 
-header {
-    margin: 0 auto;
-    width: 1110px;
-    padding: 0px;
-    margin-bottom: 10px;
-}
+/* ---- header ------ */
 
-nav {
-    margin: 0 auto;
+.page-header {
+    padding-bottom: 10px;
+    padding-top: 15px;
 }
 
 .site-navigation {
@@ -75,53 +90,30 @@ nav {
     font-weight: 900;
 }
 
-.clearfix::after {
-    display: table;
-    content: '';
-    clear: both;
-}
-
 .site-navigation-item {
     display: inline-block;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .site-navigation-item a:hover,
 .site-navigation-item a:focus {
     color: #4ec6ab;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.4;
 }
 
-/* -------------------------*/
+
+/* ------------slider-------------*/
 .slider {
+    background-image: url('/img/slider/slide4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slider-content {
+    min-height: 600px;
     position: relative;
-    width: 100%;
-}
-
-img .slider-image {
-    max-height: 600px;
-    object-fit: cover;
-}
-
-.slider-image {
-    filter: brightness(52%);
-}
-
-.slider-list {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
 }
 
 .slider-button {
@@ -130,61 +122,49 @@ img .slider-image {
     margin: 0px;
     padding: 0px;
     position: absolute;
-    background-color: #1abc9c;
+    background-color: rgb(26, 188, 156);
     width: 104px;
     height: 104px;
-    color: #fff;
+    top: 45%;
+    transform: translateY(-50%);
     cursor: pointer;
-    top: 200px;
-    z-index: 5;
 }
 
 .previous-slider {
-    left: 225px;
-    opacity: 0.5;
+    left: 0px;
+    opacity: 0.8;
 }
-
 .next-slider {
-    right: 225px;
+    right: 0px;
 }
-
-.slider-item {
-    position: relative;
-}
-
-.slider p {
-    margin: 0px;
+.slider-list {
     padding: 0px;
+    margin: 0px;
+    list-style: none;
+    position: absolute;
+    width: 770px;
+    top: 34%;
+    left: 16%;
+}
+
+.slider-list p{
     color: #fff;
     text-transform: uppercase;
+    margin: 0px;
 }
 
-.slider-title {
-    position: absolute;
-    font-size: 54px;
+.slider-title{
+    font-size: 60px;
+    line-height: 82px;
     font-weight: 900;
-    line-height: 60px;
-    bottom: 50%;
-    left: 50%;
-    transform: translate(-48%, -40%);
-    text-align: center;
 }
-
 .slider-info {
-    bottom: 220px;
-    left: 50%;
-    transform: translate(-68%, -50%);
     font-size: 24px;
     font-weight: 300;
-    position: absolute;
-}
+    line-height: 54px;
+  }
 
-/*-----------------------*/
-.coll {
-    margin: 0 auto;
-    background-color: #e9f0fd;
-    margin-bottom: 0px;
-}
+/*----------collection-------------*/
 
 .collhead {
     text-transform: uppercase;
@@ -208,13 +188,16 @@ img .slider-image {
     margin-top: 32px;
 }
 
+.coll {
+    background-color: #e9f0fd;
+    padding-bottom: 98px;
+}
+
 .collection {
-    width: 1110px;
-    margin: 0 auto;
     padding: 0px;
     font-size: 0px;
     list-style: none;
-    margin-bottom: 20px;
+  
 }
 
 .collection-list-item {
@@ -270,29 +253,35 @@ img .slider-image {
     cursor: pointer;
 }
 
-/*--------------------------------*/
+/*-------------footer-------------------*/
+
 footer {
     background-color: #323232;
     height: 88px;
     margin: 0 auto;
     padding: 0px;
+    position: relative;
 }
 
 .footertext {
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
     color: #fff;
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
     margin: 0 auto;
     text-transform: capitalize;
-    padding-top: 38px;
+    max-height: 88px;
 }
 
 .author {
     color: #46bfa9;
 }
 
-/*--------------------------------*/
+/*----------overlay----------------------*/
+
 .first-card {
     position: relative;
 }
