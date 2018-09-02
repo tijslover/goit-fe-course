@@ -292,25 +292,25 @@ footer {
 }
 
 .like {
-    background-image: url('/img/coll-overlay/1st.png');
+    background-image: url('/img/colloverlay/1st.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .share {
-    background-image: url('/img/coll-overlay/2nd.png');
+    background-image: url('/img/colloverlay/2nd.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .time {
-    background-image: url('/img/coll-overlay/3rd.png');
+    background-image: url('/img/colloverlay/3rd.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .add {
-    background-image: url('/img/coll-overlay/add.jpg');
+    background-image: url('/img/colloverlay/add.jpg');
     background-repeat: no-repeat;
     background-position: center;
 }
