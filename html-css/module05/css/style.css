@@ -180,7 +180,7 @@ img {
 
 .like {
     background-image: url('../img/colloverlay/1st.png');
-}
+} 
 
 .share {
     background-image: url('../img/colloverlay/2nd.png');
@@ -211,9 +211,10 @@ img {
     margin: 0px;
     padding: 0px;
     width: 166px;
-    position: absolute;
     top: 50%;
     right: 34px;
+    position: absolute;
+    z-index: 999;
     transform: translateY(-50%);
 }
 .ovhov:hover .overlay{
