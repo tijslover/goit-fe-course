@@ -135,15 +135,12 @@ img {
     opacity: 0.8;
     background-image: url('../img/slider/left.png');
     background-repeat: no-repeat;
-    block-size: cover;
-
 }
 
 .next-slider {
     right: 0px;
     background-image: url('../img/slider/right.png');
     background-repeat: no-repeat;
-    block-size: cover;
 }
 
 .slider-list {
