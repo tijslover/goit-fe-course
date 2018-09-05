@@ -215,7 +215,7 @@ img {
 
 .ovhov:hover .overlay {
   background-color: rgb(0, 0, 0);
-  opacity: 0.549;
+  opacity: 1;
 }
 
 .list-overlay a:hover {
