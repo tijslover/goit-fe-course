@@ -355,13 +355,18 @@ footer {
 }
 
 .footertext {
+  display: inline-block;
   color: #fff;
-  font-size: 16xp;
+  font-size: 16px;
   font-weight: 400;
   margin: 0 auto;
   text-transform: capitalize;
   padding: 34px 0;
   line-height: 28px;
+}
+footer a {
+  display: inline-block;
+  text-decoration: none;
 }
 
 .author {
