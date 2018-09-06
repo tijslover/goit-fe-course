@@ -367,6 +367,7 @@ footer {
 footer a {
   display: inline-block;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .author {
