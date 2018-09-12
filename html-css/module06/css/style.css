@@ -439,9 +439,9 @@ footer {
 }
 
 .emailadress {
-  border: none;
   margin: 0px;
   padding: 0 10px;
+  color: rgb(204, 204, 204);
   width: 230px;
   height: 40px;
   border: solid 1px rgb(231, 231, 231);
