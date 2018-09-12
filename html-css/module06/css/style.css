@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+::before {
+  font-family: "Kaushan Script", cursive;
+}
+
 body {
   font-family: Roboto, "sans-serif";
   font-size: 15px;
@@ -137,7 +141,6 @@ main {
   color: #333333;
   font-size: 24px;
   font-weight: 400;
-  font-family: "Kaushan Script", cursive;
   content: "We work with";
   display: block;
   text-transform: none;
@@ -189,11 +192,10 @@ main {
 }
 
 .services-descr {
-  font-family: "Roboto", sans-serif;
   color: rgb(153, 153, 153);
   margin: 0px;
   padding: 0px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
 }
@@ -251,7 +253,6 @@ main {
   color: #333333;
   font-size: 24px;
   font-weight: 400;
-  font-family: "Kaushan Script", cursive;
   content: "Who we are";
   display: block;
   text-transform: none;
@@ -271,9 +272,7 @@ main {
 }
 
 .team-about {
-  font-family: "Roboto", sans-serif;
   color: rgb(153, 153, 153);
-  font-size: 15px;
   font-weight: 400;
   line-height: 24px;
   text-align: center;
@@ -313,9 +312,8 @@ main {
 }
 
 .team-list-occupation {
-  font-family: "Roboto", sans-serif;
+  font-size: 14px;
   color: rgb(153, 153, 153);
-  font-size: 15px;
   font-weight: 300;
   font-style: italic;
   line-height: 24px;
@@ -412,7 +410,7 @@ footer {
 
 .author {
   display: inline-block;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   color: rgb(243, 129, 129);
   font-size: 14px;
   text-decoration: none;
