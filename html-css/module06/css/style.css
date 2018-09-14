@@ -320,7 +320,9 @@ img {
   height: 470px;
   left: -10px;
   top: -10px;
-  box-shadow: 11px 10px 0px 0px rgba(149, 225, 211, 0);
+  transition: all 0.2s;
+  /* box-shadow: 11px 10px 0px 0px rgba(149, 225, 211, 1); */
+
   /* background: linear-gradient(
     0deg,
     rgb(252, 227, 138) 0%,
@@ -348,6 +350,7 @@ img {
   width: 54px;
   background-color: rgb(252, 227, 138);
   height: 54px;
+  transition: all 0.5s linear;
 }
 
 /* .socials-list a:hover {
@@ -364,6 +367,11 @@ img {
     rgb(243, 129, 129) 100%
   );
   transition: opacity 0.5s linear;
+}
+
+.team-list-image {
+  transform: translate(0, 0);
+  transition: all 0.5s;
 }
 
 .team-list-item:hover .team-list-image {
