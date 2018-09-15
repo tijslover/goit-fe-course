@@ -90,11 +90,11 @@ img {
   margin: 0 auto;
   width: 0px;
   height: 3px;
+  transition: width 0.2s linear;
 }
 
 .site-navigation-items:hover::after {
-  width: 60px;
-  transition: all 0.2s linear;
+  width: 100%;
 }
 
 .site-navigation-items:hover a,
@@ -208,27 +208,27 @@ img {
   background-position: center;
 }
 
-.el-one::before {
+.first-bgimage-of-services::before {
   background-image: url(../img/section1/alarm-1.png);
 }
 
-.el-two::before {
+.second-bgimage-of-services::before {
   background-image: url(../img/section1/linegraph-2.png);
 }
 
-.el-three::before {
+.third-bgimage-of-services::before {
   background-image: url(../img/section1/comp-3.png);
 }
 
-.el-four::before {
+.fourth-bgimage-of-services::before {
   background-image: url(../img/section1/book-4.png);
 }
 
-.el-five::before {
+.fifth-bgimage-of-services::before {
   background-image: url(../img/section1/home-5.png);
 }
 
-.el-six::before {
+.sixth-bgimage-of-services::before {
   background-image: url(../img/section1/image-6.png);
 }
 
@@ -320,14 +320,13 @@ img {
   height: 470px;
   left: -10px;
   top: -10px;
-  transition: all 0.2s;
-  /* box-shadow: 11px 10px 0px 0px rgba(149, 225, 211, 1); */
-
-  /* background: linear-gradient(
-    0deg,
-    rgb(252, 227, 138) 0%,
-    rgb(243, 129, 129) 100%
-  ); */
+  z-index: 1;
+  background: linear-gradient(
+    to bottom,
+    rgba(252, 227, 138, 0.9) 0%,
+    rgba(243, 129, 129, 0.9) 100%
+  );
+  transition: linear-gradient 2s linear;
 }
 
 .socials-list {
@@ -350,33 +349,22 @@ img {
   width: 54px;
   background-color: rgb(252, 227, 138);
   height: 54px;
-  transition: all 0.5s linear;
+  transition: background-color 0.3s linear;
 }
 
-/* .socials-list a:hover {
-  
-} */
-
 .team-list-item:hover .overlay {
-  opacity: 0.9;
+  opacity: 1;
   box-shadow: 11px 10px 0px 0px rgba(149, 225, 211, 1);
-  transition: box-shadow 0.1s linear;
-  background: linear-gradient(
-    0deg,
-    rgb(252, 227, 138) 0%,
-    rgb(243, 129, 129) 100%
-  );
-  transition: opacity 0.5s linear;
+  transition: opacity 0.3s linear, box-shadow 0.3s linear;
 }
 
 .team-list-image {
   transform: translate(0, 0);
-  transition: all 0.5s;
+  transition: transform 0.3s linear;
 }
 
 .team-list-item:hover .team-list-image {
   transform: translate(-2.65%, -2.1%);
-  transition: all 0.2s;
 }
 
 .socials-list-icon {
@@ -386,7 +374,6 @@ img {
 
 .socials-list-items:hover a {
   background-color: rgb(149, 225, 211);
-  transition: background-color 0.5s;
 }
 
 .facebook {
@@ -445,6 +432,7 @@ footer {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
+  transition: background-color 0.3s linear;
 }
 
 .button:hover {
