@@ -56,11 +56,12 @@ img {
   font-size: 26px;
   line-height: 41px;
   text-decoration: none;
+  transform: scale(1);
+  transition: transform 0.3s linear;
 }
 
 .logo:hover {
   transform: scale(1.2);
-  transition: transform 0.3s linear;
 }
 
 .navigation-list {
