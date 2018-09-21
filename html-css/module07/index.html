@@ -71,21 +71,21 @@
                 <h2 class="contact-title">contact us</h2>
                 <p class="contact-title-about">Lorem ipsum dolor sit amet consectetur.</p>
             </header>
-            <form action="#" role="form" id="contact-us" name="contact-us" class="contact-us container">
+            <form action="#" id="contact-us" name="contact-us" class="contact-us container">
                 <div class="container-for-fields">
                     <div class="form-objects">
                         <label for="yourname"><span class="visually-hidden">enter your name</span></label>
-                        <input type="text" minlength="3" placeholder="NAME *" name="yourname" required>
+                        <input type="text" minlength="3" placeholder="NAME *" name="yourname" id="yourname" required>
 
                         <label for="email"><span class="visually-hidden">enter your email</span></label>
-                        <input type="email" placeholder="E-MAIL *" name="email" required>
+                        <input type="email" placeholder="E-MAIL *" name="email" id="email" required>
 
                         <label for="subject"><span class="visually-hidden">enter subject of message</span></label>
-                        <input type="text" placeholder="SUBJECT" name="subject">
+                        <input type="text" placeholder="SUBJECT" name="subject" id="subject">
                     </div>
                     <label for="message"><span class="visually-hidden">enter your message</span></label>
                     <textarea placeholder="MESSAGE *" class="messagearea" maxlength="200" minlength="5" name="message"
-                        cols="20" rows="10" required></textarea>
+                        cols="20" rows="10" required id="message"></textarea>
                 </div>
                 <button class="button" type="submit" form="contact-us">send message</button>
             </form>
