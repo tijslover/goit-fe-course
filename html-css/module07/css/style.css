@@ -12,7 +12,7 @@ body {
   font-size: 14px;
 }
 
-.content {
+.container {
   width: 970px;
   margin: 0 auto;
 }
@@ -39,7 +39,7 @@ img {
 
 /* --------header----------- */
 .masthead {
-  padding: 20px;
+  padding-top: 20px;
   margin-bottom: 100px;
 }
 
@@ -71,6 +71,8 @@ img {
   list-style: none;
   padding: 0px;
   margin: 0px;
+  min-width: 480px;
+  flex-wrap: wrap;
 }
 
 .navigation-list-item a {
@@ -78,7 +80,6 @@ img {
   font-family: Montserrat, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
-  padding: 18px 18px 5px 18px;
   line-height: 41px;
   color: rgb(34, 34, 34);
   transition: color 0.3s linear;
@@ -103,7 +104,6 @@ img {
 .navigation-list-item a:hover,
 .navigation-list-item a:focus {
   color: #fed136;
-  cursor: pointer;
 }
 
 /* --------main-section--------- */
@@ -201,12 +201,9 @@ img {
   background-repeat: no-repeat;
   background-position: right;
   background-size: 40%;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   padding-top: 110px;
   padding-bottom: 110px;
+  text-align: center;
 }
 
 .contact-title {
@@ -224,22 +221,28 @@ img {
   font-size: 16px;
   color: rgb(119, 119, 119);
   margin: 0px;
-  margin-bottom: 80px;
 }
 
 /* ---------------------- */
 
 .container-for-fields {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
 }
 
-.form-objects {
-  width: 940px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.formsection-header {
+  margin-bottom: 80px;
+}
+
+.form-objects input {
+  display: block;
+  border-radius: 2px;
+  border: 1px solid rgb(204, 204, 204);
+  width: 455px;
+  height: 52px;
+  padding: 15px;
+  margin: 0px;
 }
 
 .form-objects input {
@@ -250,19 +253,10 @@ img {
   margin-bottom: 28px;
 }
 
-.form-objects input {
-  display: block;
-  border-radius: 2px;
-  border: 1px solid rgb(204, 204, 204);
-  width: 455px;
-  height: 50px;
-  padding: 15px;
-}
-
 textarea[name="message"] {
   border-radius: 2px;
   width: 455px;
-  height: 210px;
+  height: 212px;
   resize: none;
   padding: 15px;
 }
@@ -271,7 +265,6 @@ textarea[name="message"] {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .button {

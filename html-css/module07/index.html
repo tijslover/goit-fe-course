@@ -13,7 +13,7 @@
 
 <body>
 
-    <header class="masthead content">
+    <header class="masthead container">
         <nav class="navigation">
             <a href="#" class="logo">Golden</a>
             <ul class="navigation-list">
@@ -38,7 +38,7 @@
 
     <main>
         <h1 class="visually-hidden">zagolovok to hide</h1>
-        <section class="main-section content">
+        <section class="main-section container">
             <header class="main-section-header">
                 <h2 class="main-section-title">services</h2>
                 <p class="main-section-about">Lorem ipsum dolor sit amet consectetur.</p>
@@ -67,11 +67,11 @@
             </ul>
         </section>
         <section class="formsection">
-            <form role="form" id="contact-us" name="contact-us" class="contact-us">
-                <header class="fromsection-header">
-                    <h2 class="contact-title">contact us</h2>
-                    <p class="contact-title-about">Lorem ipsum dolor sit amet consectetur.</p>
-                </header>
+            <header class="formsection-header container">
+                <h2 class="contact-title">contact us</h2>
+                <p class="contact-title-about">Lorem ipsum dolor sit amet consectetur.</p>
+            </header>
+            <form action="#" role="form" id="contact-us" name="contact-us" class="contact-us container">
                 <div class="container-for-fields">
                     <div class="form-objects">
                         <label for="yourname"><span class="visually-hidden">enter your name</span></label>
@@ -82,12 +82,12 @@
 
                         <label for="subject"><span class="visually-hidden">enter subject of message</span></label>
                         <input type="text" placeholder="SUBJECT" name="subject">
-                        <label for="message"><span class="visually-hidden">enter your message</span></label>
-                        <textarea placeholder="MESSAGE *" class="messagearea" maxlength="200" minlength="5" name="message"
-                            cols="20" rows="10" required></textarea>
                     </div>
-                    <button class="button" type="submit" form="contact-us">send message</button>
+                    <label for="message"><span class="visually-hidden">enter your message</span></label>
+                    <textarea placeholder="MESSAGE *" class="messagearea" maxlength="200" minlength="5" name="message"
+                        cols="20" rows="10" required></textarea>
                 </div>
+                <button class="button" type="submit" form="contact-us">send message</button>
             </form>
 
         </section>
