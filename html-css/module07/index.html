@@ -44,52 +44,56 @@
                 <p class="main-section-about">Lorem ipsum dolor sit amet consectetur.</p>
             </header>
             <ul class="main-section-list">
-                <li class="main-section-list-item">
-                    <div class="first-ms-bg"></div>
-                    <p class="service-name">E-Commerce</p>
+                <li class="main-section-list-item commerce">
+                    <h3 class="service-name ">E-Commerce</h3>
                     <p class="service-name-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ea.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
                         porro.</p>
                 </li>
-                <li class="main-section-list-item">
-                    <div class="second-ms-bg"></div>
-                    <p class="service-name">Responsive Web</p>
+                <li class="main-section-list-item responsive">
+                    <h3 class="service-name">Responsive Web</h3>
                     <p class="service-name-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia,
                         quidem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
                         porro.</p>
                 </li>
-                <li class="main-section-list-item">
-                    <div class="third-ms-bg"></div>
-                    <p class="service-name">Web Security</p>
+                <li class="main-section-list-item security">
+                    <h3 class="service-name">Web Security</h3>
                     <p class="service-name-about">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Praesentium, nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
                         porro.</p>
                 </li>
+
+
             </ul>
+        </section>
+        <section class="formsection">
+            <form role="form" id="contact-us" name="contact-us" class="contact-us">
+                <header class="fromsection-header">
+                    <h2 class="contact-title">contact us</h2>
+                    <p class="contact-title-about">Lorem ipsum dolor sit amet consectetur.</p>
+                </header>
+                <div class="form-objects">
+                    <label for="yourname"><span class="visually-hidden">enter your name</span></label>
+                    <input type="text" minlength="3" placeholder="NAME *" name="yourname" required>
+
+                    <label for="email"><span class="visually-hidden">enter your email</span></label>
+                    <input type="email" placeholder="E-MAIL *" name="email" required>
+
+                    <label for="subject"><span class="visually-hidden">enter subject of message</span></label>
+                    <input type="text" placeholder="SUBJECT" name="subject">
+                    <label for="message"><span class="visually-hidden">enter your message</span></label>
+
+                </div>
+                <textarea placeholder="MESSAGE *" class="messagearea" maxlength="200" minlength="5" name="message" cols="20"
+                    rows="10" required></textarea>
+
+                <button class="button" type="submit" form="contact-us">send message</button>
+            </form>
+
         </section>
 
     </main>
-    <footer class="mastfooter">
-        <h2 class="contact-title">contact us</h2>
-        <p class="contact-title-about">Lorem ipsum dolor sit amet consectetur.</p>
-        <form role="form" id="contact-us" name="contact-us" class="contact-us">
-            <div class="form-objects">
-                <label for="yourname"><span class="visually-hidden">enter your name</span></label>
-                <input type="text" minlength="3" placeholder="NAME *" name="yourname" value="name" required>
 
-                <label for="email"><span class="visually-hidden">enter your email</span></label>
-                <input type="email" placeholder="E-MAIL *" name="email" value="email" required>
-
-                <label for="subject"><span class="visually-hidden">enter subject of message</span></label>
-                <input type="text" placeholder="SUBJECT" value="subject" name="subject">
-            </div>
-            <label for="message"><span class="visually-hidden">enter your message</span></label>
-            <textarea placeholder="MESSAGE *" class="messagearea" maxlength="200" minlength="5" name="message" cols="20"
-                rows="10" required></textarea>
-
-        </form>
-        <button class="button" type="submit" form="contact-us">send message</button>
-    </footer>
 
 </body>
 
