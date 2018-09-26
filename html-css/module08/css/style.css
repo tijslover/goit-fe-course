@@ -178,7 +178,7 @@ main {
 }
 
 .partners-pics::after {
-  background-image: url("/img/icons-for-partners/first-icon.png");
+  background-image: url("../img/icons-for-partners/first-icon.png");
   position: absolute;
   top: 0px;
   left: 0px;
