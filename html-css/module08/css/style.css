@@ -49,6 +49,7 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 .navigation-site {
@@ -175,7 +176,7 @@ main {
   content: "";
   display: block;
   background-color: blue;
-  background-image: url("/img/icons-for-partners/first-icon.png");
+  background-image: url("img/icons-for-partners/first-icon.png");
   width: 17px;
   height: 17px;
   border: 2px solid red;
