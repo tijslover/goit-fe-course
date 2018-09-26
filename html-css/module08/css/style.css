@@ -65,7 +65,13 @@ img {
   margin: 0px;
   text-decoration: none;
   color: inherit;
+  transition: color 0.3s linear;
 }
+
+.navigation-likelogo:hover {
+  color: rgb(255, 78, 80);
+}
+
 .navigation-likelogo a {
   display: block;
   padding: 5px;
@@ -166,24 +172,26 @@ main {
   margin-bottom: 30px;
 }
 
-.partners-list-item img {
+.partners-pics {
+  margin-bottom: 20px;
   position: relative;
 }
 
-.partners-list-item img::after {
+.partners-pics::after {
+  background-image: url("/img/icons-for-partners/first-icon.png");
   position: absolute;
-  content: "";
+  top: 0px;
+  left: 0px;
   display: block;
-  background-color: blue;
-  background-image: url("img/icons-for-partners/first-icon.png");
+  content: "asdasd";
   width: 17px;
   height: 17px;
-  border: 2px solid red;
-  color: black;
-}
-
-.partners-pics {
-  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: red;
+  background-size: cover;
+  color: red;
+  border: 2px #fff solid;
 }
 
 .partners-list-item {
