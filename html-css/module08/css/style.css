@@ -45,11 +45,10 @@ img {
   color: rgb(255, 255, 255);
   padding-top: 30px;
   padding-bottom: 140px;
-  background-image: url("../img/bgimage/mobile-bg.png");
+  background-image: url("/img/bgimage/mobile-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
 }
 
 .navigation-site {
