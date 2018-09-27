@@ -45,7 +45,7 @@ img {
   color: rgb(255, 255, 255);
   padding-top: 30px;
   padding-bottom: 140px;
-  background-image: url("/img/bgimage/mobile-bg.png");
+  background-image: url("../img/bgimage/mobile-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -147,12 +147,7 @@ main {
   transition: color 0.3s linear, background-color 0.3s linear;
   display: block;
   margin: 0 auto;
-}
-
-.findbutton {
   display: block;
-  text-decoration: none;
-  color: inherit;
 }
 
 .findbutton:hover,
@@ -254,7 +249,7 @@ main {
   }
 }
 
-@media (min-width: 700px) and (max-width: 1024px) {
+@media (min-width: 700px) and (max-width: 1023px) {
   .header-title {
     font-family: Roboto, sans-serif;
     width: 490px;
