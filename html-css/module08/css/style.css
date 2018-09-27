@@ -16,7 +16,7 @@ body {
 .container {
   width: 320px;
   margin: 0 auto;
-  padding: 0 14px;
+  padding: 0 15px;
 }
 
 .visually-hidden {
@@ -49,6 +49,7 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #1a1915;
 }
 
 .navigation-site {
@@ -59,6 +60,7 @@ img {
 }
 
 .navigation-likelogo {
+  display: block;
   text-transform: uppercase;
   font-size: 20px;
   margin: 0px;
@@ -83,7 +85,6 @@ img {
   justify-content: center;
   list-style: none;
   font-weight: 700;
-  margin-bottom: 130px;
 }
 
 .navigation-auth a {
@@ -93,7 +94,10 @@ img {
   padding: 8px 16px;
   border-radius: 0px;
   border: 0px;
-  transition: border 0.3s linear;
+  transition: border 0.1s linear;
+  border: 2px rgb(255, 255, 255) solid;
+  border-radius: 120px 120px 120px 120px;
+  border-color: transparent;
 }
 
 .navigation-auth a:hover {
@@ -210,7 +214,7 @@ main {
 }
 
 .partners-list-item {
-  width: 240px;
+  width: 220px;
 }
 
 .partners-list-item:not(:last-child) {
@@ -226,6 +230,7 @@ main {
 
 .partners-about {
   text-align: center;
+  margin: 0px;
   font-family: Roboto, sans-serif;
   color: rgb(102, 102, 102);
   font-weight: 300;
@@ -249,6 +254,12 @@ main {
   }
 }
 
+@media (max-width: 767px) {
+  .navigation-auth {
+    margin-bottom: 130px;
+  }
+}
+
 @media (min-width: 700px) and (max-width: 1023px) {
   .header-title {
     font-family: Roboto, sans-serif;
@@ -268,6 +279,9 @@ main {
     align-items: center;
     margin-bottom: 160px;
   }
+  .partners-list-item:not(:last-child) {
+    margin-bottom: 0px;
+  }
 
   .container {
     width: 660px;
@@ -280,9 +294,6 @@ main {
     padding-bottom: 250px;
   }
 
-  .navigation-auth {
-    margin-bottom: 0px;
-  }
   .findbutton {
     width: 230px;
   }
@@ -305,6 +316,12 @@ main {
   }
 }
 
+@media (min-width: 700px) and (max-width: 767px) {
+  .navigation-auth {
+    margin-bottom: 0px;
+  }
+}
+
 @media (min-width: 1024px) {
   .header-title {
     margin: 0 auto;
@@ -314,6 +331,7 @@ main {
   }
   .masthead {
     background-image: url("../img/bgimage/pc-bg.png");
+    filter: drop-shadow(0px 0px 0px black);
   }
   .container {
     width: 940px;
@@ -326,9 +344,7 @@ main {
     margin: 0 auto;
     margin-bottom: 48px;
   }
-  .partners-list-item {
-    width: 220px;
-  }
+
   .partners-list {
     display: flex;
     justify-content: space-between;
