@@ -52,7 +52,6 @@ img {
 }
 
 .navigation-site {
-  height: 180px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -84,7 +83,7 @@ img {
   justify-content: center;
   list-style: none;
   font-weight: 700;
-  /* margin-bottom: 130px; */
+  margin-bottom: 130px;
 }
 
 .navigation-auth a {
@@ -94,7 +93,7 @@ img {
   padding: 8px 16px;
   border-radius: 0px;
   border: 0px;
-  transition: border-radius 0.3s linear, border 0.3s linear;
+  transition: border 0.3s linear;
 }
 
 .navigation-auth a:hover {
@@ -113,7 +112,6 @@ img {
 
 .header-about {
   font-family: Roboto, sans-serif;
-  font-size: 24px;
   font-weight: 300;
   margin: 0px;
   text-align: center;
@@ -151,7 +149,7 @@ main {
   margin: 0 auto;
 }
 
-.findbutton a {
+.findbutton {
   display: block;
   text-decoration: none;
   color: inherit;
@@ -161,6 +159,7 @@ main {
 .findbutton:focus {
   color: rgb(255, 78, 80);
   background-color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 /* ----------main----------- */
@@ -172,31 +171,51 @@ main {
   margin-bottom: 30px;
 }
 
-.partners-pics {
+.for-icon img {
   margin-bottom: 20px;
+}
+.for-icon {
   position: relative;
+  margin-bottom: 20px;
+  width: 121px;
+  margin: 0 auto;
 }
 
-.partners-pics::after {
+.first-partner-icon::after {
+  background-color: rgb(255, 78, 80);
   background-image: url("../img/icons-for-partners/first-icon.png");
+}
+.second-partner-icon::after {
+  background-image: url("../img/icons-for-partners/second-icon.png");
+  background-color: #1cd7ad;
+}
+
+.third-partner-icon::after {
+  background-color: #ffa507;
+  background-image: url("../img/icons-for-partners/third-icon.png");
+}
+
+.fourth-partner-icon::after {
+  background-color: #4e73db;
+  background-image: url("../img/icons-for-partners/fourth-icon.png");
+}
+
+.for-icon::after {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  bottom: -4px;
+  right: 8px;
   display: block;
-  content: "asdasd";
-  width: 17px;
-  height: 17px;
+  content: "";
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: 3px solid #fff;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: red;
-  background-size: cover;
-  color: red;
-  border: 2px #fff solid;
 }
 
 .partners-list-item {
   width: 240px;
-  margin: 0px auto;
 }
 
 .partners-list-item:not(:last-child) {
@@ -224,20 +243,109 @@ main {
     font-size: 30px;
   }
   .header-about {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .navigation-site {
     flex-direction: column-reverse;
   }
+  .partners-list-item {
+    margin: 0 auto;
+  }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 700px) and (max-width: 1024px) {
+  .header-title {
+    font-family: Roboto, sans-serif;
+    width: 490px;
+    margin: 0 auto;
+    font-size: 52px;
+  }
   .masthead {
     background-image: url("../img/bgimage/tablet-bg.png");
+    filter: drop-shadow(0px 0px 0px black);
+  }
+
+  .navigation-site {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 160px;
   }
 
   .container {
     width: 660px;
+  }
+  .header-about {
+    font-size: 24px;
+  }
+  .masthead {
+    padding-top: 40px;
+    padding-bottom: 250px;
+  }
+
+  .navigation-auth {
+    margin-bottom: 0px;
+  }
+  .findbutton {
+    width: 230px;
+  }
+
+  .header-about {
+    margin-bottom: 38px;
+  }
+  .header-title {
+    margin-bottom: 44px;
+  }
+  .partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    margin-bottom: 40px;
+  }
+  .partners-list-item:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 58px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-title {
+    margin: 0 auto;
+  }
+  .header-about {
+    font-size: 24px;
+  }
+  .masthead {
+    background-image: url("../img/bgimage/pc-bg.png");
+  }
+  .container {
+    width: 940px;
+    padding: 0px;
+  }
+  .navigation-auth {
+    margin-bottom: 0px;
+  }
+  .header-title {
+    margin: 0 auto;
+    margin-bottom: 48px;
+  }
+  .partners-list-item {
+    width: 220px;
+  }
+  .partners-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .partners-list-item:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 0px;
+  }
+  .partners-list-item:not(:last-child) {
+    margin-bottom: 0px;
+  }
+  .navigation-site {
+    margin-bottom: 140px;
   }
 }
