@@ -45,7 +45,8 @@ img {
   color: rgb(255, 255, 255);
   padding-top: 30px;
   padding-bottom: 140px;
-  background-image: url("../img/bgimage/mobile-bg.png");
+  background-image: url("../img/bgimage/pc-bg.png");
+  filter: drop-shadow(0px 0px 0px black);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -267,10 +268,6 @@ main {
     margin: 0 auto;
     font-size: 52px;
   }
-  .masthead {
-    background-image: url("../img/bgimage/tablet-bg.png");
-    filter: drop-shadow(0px 0px 0px black);
-  }
 
   .navigation-site {
     display: flex;
@@ -325,13 +322,13 @@ main {
 @media (min-width: 1024px) {
   .header-title {
     margin: 0 auto;
+    width: 490px;
   }
   .header-about {
     font-size: 24px;
   }
-  .masthead {
-    background-image: url("../img/bgimage/pc-bg.png");
-    filter: drop-shadow(0px 0px 0px black);
+  .header-about {
+    margin-bottom: 40px;
   }
   .container {
     width: 940px;
@@ -342,7 +339,7 @@ main {
   }
   .header-title {
     margin: 0 auto;
-    margin-bottom: 48px;
+    margin-bottom: 40px;
   }
 
   .partners-list {
@@ -357,6 +354,9 @@ main {
     margin-bottom: 0px;
   }
   .navigation-site {
-    margin-bottom: 140px;
+    margin-bottom: 160px;
+  }
+  .masthead {
+    padding-bottom: 250px;
   }
 }
