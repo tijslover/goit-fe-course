@@ -148,11 +148,12 @@ main {
   border: none;
   font-weight: bold;
   padding: 0px;
+  text-decoration: none;
   text-align: center;
   transition: color 0.3s linear, background-color 0.3s linear;
-  display: block;
   margin: 0 auto;
   display: block;
+  line-height: 40px;
 }
 
 .findbutton:hover,
@@ -358,5 +359,11 @@ main {
   }
   .masthead {
     padding-bottom: 250px;
+  }
+}
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .masthead {
+    background-image: url("../img/bgimage/pc-bg@2x.png");
   }
 }
