@@ -107,7 +107,7 @@ img {
 }
 
 .header-title {
-  font-size: 52px;
+  font-size: 30px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -121,6 +121,7 @@ img {
   margin: 0px;
   text-align: center;
   margin-bottom: 18px;
+  font-size: 24px;
 }
 
 /* --------main section------ */
@@ -175,6 +176,7 @@ main {
 .for-icon img {
   margin-bottom: 20px;
 }
+
 .for-icon {
   position: relative;
   margin-bottom: 20px;
@@ -186,6 +188,7 @@ main {
   background-color: rgb(255, 78, 80);
   background-image: url("../img/icons-for-partners/first-icon.png");
 }
+
 .second-partner-icon::after {
   background-image: url("../img/icons-for-partners/second-icon.png");
   background-color: #1cd7ad;
@@ -222,6 +225,7 @@ main {
 .partners-list-item:not(:last-child) {
   margin-bottom: 20px;
 }
+
 .partners-name {
   text-align: center;
   color: rgb(51, 51, 51);
@@ -241,16 +245,11 @@ main {
 /* -----media------- */
 
 @media (min-width: 320px) and (max-width: 699px) {
-  .header-title {
-    font-size: 30px;
-  }
-  .header-about {
-    font-size: 24px;
-  }
 
   .navigation-site {
     flex-direction: column-reverse;
   }
+
   .partners-list-item {
     margin: 0 auto;
   }
@@ -277,6 +276,7 @@ main {
     align-items: center;
     margin-bottom: 160px;
   }
+
   .partners-list-item:not(:last-child) {
     margin-bottom: 0px;
   }
@@ -284,9 +284,11 @@ main {
   .container {
     width: 660px;
   }
+
   .header-about {
     font-size: 24px;
   }
+
   .masthead {
     padding-top: 40px;
     padding-bottom: 250px;
@@ -299,9 +301,11 @@ main {
   .header-about {
     margin-bottom: 38px;
   }
+
   .header-title {
     margin-bottom: 44px;
   }
+
   .partners-list {
     display: flex;
     flex-wrap: wrap;
@@ -309,6 +313,7 @@ main {
     margin: 0px;
     margin-bottom: 40px;
   }
+
   .partners-list-item:not(:nth-last-child(-n + 2)) {
     margin-bottom: 58px;
   }
@@ -325,19 +330,24 @@ main {
     margin: 0 auto;
     width: 490px;
   }
+
   .header-about {
     font-size: 24px;
   }
+
   .header-about {
     margin-bottom: 40px;
   }
+
   .container {
     width: 940px;
     padding: 0px;
   }
+
   .navigation-auth {
     margin-bottom: 0px;
   }
+
   .header-title {
     margin: 0 auto;
     margin-bottom: 40px;
@@ -348,21 +358,26 @@ main {
     justify-content: space-between;
     margin-bottom: 10px;
   }
+
   .partners-list-item:not(:nth-last-child(-n + 2)) {
     margin-bottom: 0px;
   }
+
   .partners-list-item:not(:last-child) {
     margin-bottom: 0px;
   }
+
   .navigation-site {
     margin-bottom: 160px;
   }
+
   .masthead {
     padding-bottom: 250px;
   }
 }
 
-@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
   .masthead {
     background-image: url("../img/bgimage/pc-bg@2x.png");
   }
