@@ -107,7 +107,7 @@ img {
 }
 
 .header-title {
-  font-size: 52px;
+  font-size: 30px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -117,6 +117,7 @@ img {
 
 .header-about {
   font-family: Roboto, sans-serif;
+  font-size: 24px;
   font-weight: 300;
   margin: 0px;
   text-align: center;
@@ -244,14 +245,6 @@ main {
 /* -----media------- */
 
 @media (min-width: 320px) and (max-width: 699px) {
-  .header-title {
-    font-size: 30px;
-  }
-
-  .header-about {
-    font-size: 24px;
-  }
-
   .navigation-site {
     flex-direction: column-reverse;
   }
