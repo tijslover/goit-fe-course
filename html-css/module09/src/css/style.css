@@ -222,6 +222,10 @@ main {
   width: 220px;
 }
 
+.partners-pics {
+  border-radius: 50%;
+}
+
 .partners-list-item:not(:last-child) {
   margin-bottom: 20px;
 }
@@ -254,6 +258,12 @@ main {
   }
 }
 
+@media (min-width:700px) {
+  .header-title {
+    font-size: 52px;
+  }
+}
+
 @media (max-width: 767px) {
   .navigation-auth {
     margin-bottom: 130px;
@@ -265,7 +275,6 @@ main {
     font-family: Roboto, sans-serif;
     width: 490px;
     margin: 0 auto;
-    font-size: 52px;
     margin-bottom: 44px;
   }
 
@@ -341,11 +350,12 @@ main {
 
   .partners-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 10px;
   }
 
-  .partners-list-item:not(:nth-last-child(-n + 2)) {
+  .partners-list-item:not(:nth-last-child(-n + 4)) {
     margin-bottom: 0px;
   }
 
