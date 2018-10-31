@@ -11,7 +11,7 @@
     "html": "cpx src/*html build",
     "html-minify": "html-minifier --input-dir src --output-dir build --collapse-whitespace --file-ext html ",
     "images": "imagemin src/img/* -o=build/img",
-    "build": "npm run clean && npm run images && npm run css && npm run html-minify"
+    "build": "npm run clean && npm run css && npm run html-minify"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +20,7 @@
     "browser-sync": "^2.24.7",
     "cpx": "^1.5.0",
     "cssnano": "^4.1.4",
+    "gulp-svg-sprite": "^1.5.0",
     "html-minifier": "^3.5.20",
     "imagemin-cli": "^3.0.0",
     "postcss-cli": "^6.0.0",
