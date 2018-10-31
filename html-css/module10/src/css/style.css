@@ -120,11 +120,12 @@ img {
 }
 
 .users-list {
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   min-width: 80px;
   flex-grow: 0;
+  margin-left: 20px;
 }
 
 .users-list__cart-icon,
