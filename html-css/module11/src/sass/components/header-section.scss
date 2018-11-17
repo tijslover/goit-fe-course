@@ -1,0 +1,36 @@
+.mastheadsection__title {
+  color: $primary-white-text-color;
+  font-family: "Kaushan Script", cursive;
+  font-size: 72px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.mastheadsection__about {
+  width: 820px;
+  color: $primary-white-text-color;
+  font-size: 150px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 140px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.mastheadsection__button {
+  display: block;
+  color: $primary-white-text-color;
+  text-decoration: none;
+  border: 3px solid $primary-white-text-color;
+  line-height: 24px;
+  padding: 5px 20px;
+  text-align: center;
+  margin: 0 auto;
+  transition: color 0.3s linear, border 0.3s linear, transform 0.3s linear;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}

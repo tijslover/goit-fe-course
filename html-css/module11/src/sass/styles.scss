@@ -1,0 +1,26 @@
+/*
+   Import partials below
+*/
+@import "./normalize";
+
+@import "./helpers/variables";
+
+@import "./base";
+
+@import "./helpers/placeholders";
+
+@import "./helpers/mixins";
+
+@import "./components/header";
+
+@import "./components/main";
+
+@import "./components/first-section";
+
+@import "./components/section-team";
+
+@import "./components/photooverlay";
+
+@import "./components/footer";
+
+@import "./components/header-section";

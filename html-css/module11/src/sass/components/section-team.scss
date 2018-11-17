@@ -1,0 +1,45 @@
+.sections-text {
+  font-family: $secondary-font;
+  font-size: $secondary-size;
+  color: $primary-text-color;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 80px;
+}
+
+.team-list {
+  font-size: 0;
+  justify-content: space-between;
+}
+
+.team-list__item {
+  position: relative;
+}
+
+.member-cart__descr {
+  font-family: $secondary-font;
+  margin-top: $h2_logo-size;
+  text-align: center;
+  font-size: $primary-font-size;
+  padding: 0;
+}
+
+.member-cart__name {
+  color: $main-titles-color;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.member-cart__occupation {
+  font-family: $secondary-font;
+  color: $primary-text-color;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 24px;
+  margin: 0;
+}

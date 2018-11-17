@@ -1,0 +1,24 @@
+.sections-title {
+  font-family: "Kaushan Script", cursive;
+  color: $main-titles-color;
+  font-size: 24px;
+  text-align: center;
+}
+
+.sections-about {
+  color: $main-titles-color;
+  font-size: $h2_logo-size;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+
+  &:after {
+    @extend %psevdo;
+    margin: 0 auto;
+    background-color: $hover-icon-color;
+    @include size(60px, 3px);
+    text-align: center;
+    margin-top: 40px;
+  }
+}
