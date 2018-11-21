@@ -767,6 +767,7 @@ footer {
 }
 
 .footertext {
+  margin: 0;
   display: inline-block;
   color: #333333;
   font-weight: 400;
