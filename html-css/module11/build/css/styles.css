@@ -456,7 +456,7 @@ img {
 .masthead {
   padding-top: 15px;
   padding-bottom: 230px;
-  background: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url("../images/header-bg.png");
+  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url("../images/header-bg.png");
 }
 
 .navigation {
@@ -860,7 +860,7 @@ footer {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .masthead {
-    background: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url("../images/header-bg@2x.png");
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url("../images/header-bg@2x.png");
   }
 
   .first-bgimage-of-services::before {
